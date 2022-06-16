@@ -1,0 +1,17 @@
+footer{
+
+  list-style-type: none;
+  display: flex;
+  padding: 22px 20px 20px 20px;
+  background-size: 600% 500%;
+  background-image: linear-gradient(-45deg, #f1ffc1, #f573e4, #ff7676, #ba36f7,#e62194);
+  animation: 11s myGradient infinite;
+  border-radius: 33px;
+  box-shadow: 3px 3px 15px #bd4cf1;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+
+
+}
+*{font-size: 25PX;}

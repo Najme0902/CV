@@ -1,0 +1,89 @@
+
+body{
+
+  background-image: url('../../assets/img/side-img-2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  position: relative;
+}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 24px;
+
+  border: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 10px;
+
+
+
+
+
+
+  list-style-type: none;
+  display: grid;
+
+  background-size: 600% 500%;
+  background-image: linear-gradient(-45deg, #f1ffc1, #f573e4, #ff7676 ,#e62194);
+  animation: 5s myGradient infinite;
+  border-radius: 33px;
+  box-shadow: 3px 3px 25px #bd4cf1;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: relative;
+  opacity: 0;
+  top: 0;
+
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
